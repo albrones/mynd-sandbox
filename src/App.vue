@@ -1,15 +1,19 @@
 <template>
-  <Home/>
+  <h1>MyNd Sandbox</h1>
+  <h3>My developer sandbox for experiment and have fun.</h3>
+  <div>
+    <Home />
+  </div>
 </template>
 
 <script>
-import Home from './components/Home.vue'
+import Home from "./components/Home.vue"
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    Home
-  }
+    Home,
+  },
 }
 </script>
 
